@@ -9,7 +9,7 @@
   body {
     font-family: 'Cinzel','Orbitron','Courier New', Courier, monospace;
     line-height: 1.6;
-    background-color: #6d6969;
+    background-color: #dbd2c3;
     color: #333;
     max-width: 100%;
     max-height: 100%;
@@ -17,7 +17,7 @@
   
   /* Navigation Bar */
   header {
-    background-color: #000000;
+    background-color: #887d69;
     color: rgb(255, 255, 255);
     padding: 10px 0;
     position: sticky;
@@ -75,7 +75,7 @@
   #about {
     padding: 50px 0;
     text-align: center;
-    background-color: #fff;
+    background-color: #c4b69e;
   }
   
   #about .container {
@@ -96,7 +96,7 @@
   /* Portfolio Section */
   #portfolio {
     padding: 50px 0;
-    background-color: #f9f9f9;
+    background-color: #b4a68f;
   }
   
   #portfolio .container {
@@ -182,7 +182,7 @@
   
   #contact form button {
     padding: 15px;
-    background-color: #333;
+    background-color: #aa9b82;
     color: white;
     font-size: 1.1em;
     border: none;
@@ -194,9 +194,9 @@
     background-color: #555;
   }
   
-  /* Footer */
+  
   footer {
-    background-color: #333;
+    background-color: #aa9b82;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -206,7 +206,7 @@
     font-size: 1em;
   }
 
-   /* Style for the dropdown container */
+  
  .dropdown {
   position: relative;
   display: inline-block;
@@ -226,7 +226,7 @@
   }
 }
 
-/* Style for the dropdown button */
+
 .dropdown button {
   background-color: #4CAF50;
   color: rgb(0, 0, 0);
@@ -238,7 +238,7 @@
   font-family: 'Orbitron','Cinzel';
 }
 
-/* Dropdown menu hidden by default */
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -249,7 +249,7 @@
   border-radius: 5px;
 }
 
-/* Style for the items in the dropdown */
+
 .dropdown-content a {
   color: rgb(255, 255, 255);
   padding: 12px 16px;
@@ -258,12 +258,12 @@
   
 }
 
-/* Change color of links on hover */
+
 .dropdown-content a:hover {
   background-color: #dddddd50;
 }
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
   display: block;
   transform-origin: top center;
@@ -274,7 +274,7 @@
   background-color: #3e8e41;
 }
 
- /* Nested dropdown container */
+
  .dropdown-content .nested-dropdown {
   position: relative;
   transform-origin: top center;
@@ -282,21 +282,19 @@
 }
 
 
-
-/* Style for nested dropdown content */
 .nested-dropdown-content {
   display: none;
   position: absolute;
   right: 100%;
   top: 0;
   background-color: #dddddd00;
-  min-width: 160px;
+  min-width: 280px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 2;
   border-radius: 5px;
 }
 
-/* Show the nested dropdown on hover */
+
 .nested-dropdown:hover .nested-dropdown-content {
   display: block;
   /* background-color: #6d6969 */
